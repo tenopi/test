@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="秋葉町を中心に活動するバンド「AKBスターズ」の公式コーポレートサイトです。最新ライブスケジュールやメンバー情報はこちらから！">
+    <title>AKBスターズ | 秋葉町から世界へ</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">AKB<span>STARS</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#schedule">SCHEDULE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">AKB<span>STARS</span></h1>
+            <p class="hero-subtitle">秋葉町から、心揺さぶるビートを。</p>
+            <div class="hero-buttons">
+                <a href="#schedule" class="btn btn-primary">ライブ情報を見る</a>
+                <a href="#about" class="btn btn-secondary">バンドについて</a>
+            </div>
+        </div>
+        <div class="bg-elements">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section glass-section">
+        <div class="container fade-in">
+            <h2 class="section-title">ABOUT <span>US</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>秋葉町発、ロックバンド。</h3>
+                    <p>我々AKBスターズは、秋葉町内会からスタートしたロックバンドです。エネルギッシュなライブパフォーマンスと、誰もが口ずさめるキャッチーなメロディを武器に、地元で活動の幅を広げています。</p>
+                    <p>「日常に、小さなドラマを」をコンセプトに、今日もどこかで最高の音楽を鳴らします。</p>
+                </div>
+                <div class="members">
+                    <div class="member-card">
+                        <div class="member-icon">Vo</div>
+                        <h4>Ten</h4>
+                        <p>Vo</p>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-icon">Gt</div>
+                        <h4>Nao</h4>
+                        <p>Guitar</p>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-icon">Pi</div>
+                        <h4>Chiaki</h4>
+                        <p>Piano</p>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-icon">Dr</div>
+                        <h4>Hide</h4>
+                        <p>Drums</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section">
+        <div class="container fade-in">
+            <h2 class="section-title">LIVE <span>SCHEDULE</span></h2>
+            <div class="schedule-list">
+                <div class="schedule-item">
+                    <div class="date">
+                        <span class="month">Aug</span>
+                        <span class="day">15</span>
+                    </div>
+                    <div class="info">
+                        <h3>秋葉町 サマーフェス 2026</h3>
+                        <p>📍 横浜市立秋葉小中学校</p>
+                    </div>
+                    <a href="#contact" class="btn btn-outline">Ticket Info</a>
+                </div>
+                <div class="schedule-item">
+                    <div class="date">
+                        <span class="month">JUN</span>
+                        <span class="day">02</span>
+                    </div>
+                    <div class="info">
+                        <h3>AKBスターズ ワンマンライブ「Ignition」</h3>
+                        <p>📍 ライブハウス AKIBA-BEAT</p>
+                    </div>
+                    <a href="#contact" class="btn btn-outline">Sold Out</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section glass-section">
+        <div class="container fade-in">
+            <h2 class="section-title">CONTACT</h2>
+            <p class="contact-desc">チケットの予約、またはバンドへのお問い合わせはこちらから。</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="お名前" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="メールアドレス" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="メッセージ" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">送信する</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AKB STARS All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
